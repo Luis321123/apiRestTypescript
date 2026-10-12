@@ -1,93 +1,63 @@
-
-
 <div align="center">
 
-# Prueba Técnica: API para Prueba
+# 🚀 apiRestTypescript
+
+A TypeScript REST API with a hot-reloading dev workflow.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/nodemon-76D04B?style=for-the-badge" alt="nodemon" />
+  <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+</p>
 
 </div>
-
-## Descripción General
-
-Esta API es el componente del lado del servidor, desarrollado con *Node.js* y *TypeScript*. API simple para gestionar personas y sus lugares de orígenes.
 
 ---
 
-<div align="center">
+## 📖 About
 
-## 🛠 Tecnologías Principales
+A REST API written in **TypeScript** and executed with `ts-node`, using
+`nodemon` for a smooth development loop. No build step needed while
+developing.
 
-</div>
+## ✨ Features
 
-- *Node.js*: Entorno de ejecución de JavaScript.
-- *TypeScript*: Superset tipado de JavaScript.
-- *Express.js*: Framework web para Node.js.
-- *MongoDB*: Base de datos NoSQL.
-- *Mongoose*: ODM (Object Data Modeling) para MongoDB.
+- TypeScript from source (no manual build in dev)
+- Auto-restart with **nodemon**
+- Clear `src/` structure
 
----
+## 🛠️ Tech Stack
 
-<div align="center">
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/nodemon-76D04B?style=for-the-badge" alt="nodemon" />
+  <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+</p>
 
-## 👋 Requisitos Previos
-
-</div>
-
-- *Node.js*: Versión >= 16.x.
-- *npm*: Versión >= 8.x.
-- *MongoDB*: Versión >= 5.x.
-- *Git*: Sistema de control de versiones.
-
----
-
-<div align="center">
-
-## 🔧 Instalación
-
-</div>
-
-1. **Clonar el repositorio**
+## 🚀 Getting Started
 
 ```bash
+git clone https://github.com/Luis321123/apiRestTypescript.git
+cd apiRestTypescript && npm install
+npm run dev
+```
 
-git clone https://github.com/Luis321123/pruebaNode.git
-cd pruebaNode
-npm install   #Instalar dependencias
+## 📁 Project Structure
 
-Configurar variables de entorno
+```
+src/
+```
 
-Crear un archivo .env en la raíz del proyecto y agregar las variables de entorno necesarias.
-
-
-Ejecutar el servidor
-npm start # principal para que corra  
-npm run dev  # Para desarrollo
-
-📌 Endpoints de la API
-
-Método	          Endpoint                  	Descripción
-POST	           /auth/register	          Crear un nuevo usuario
-GET	           /users	                  Obtener todos los usuarios
-GET	           /users/:id	              Obtener usuario por ID
-GET	           /users/ciudad/:ciudad    	Obtener usuarios por ciudad
-PUT	           /users/update/:id	        Actualizar información de usuario
-DELETE	           /users/:id	              Eliminar un usuario
+> 🧠 **Note:** Learning project: building APIs with TypeScript from scratch.
 
 
+---
 
-🏰 Estructura del Proyecto
-
-├── src
-│   ├── config.ts     # Punto de entrada del servidor
-│   ├── controllers   # Manejadores de rutas
-│   ├── db            # Esquemas de base de datos
-│   ├── helpers       # Funciones auxiliares
-│   ├── router        # Rutas de Express
-├── .env              # Variables de entorno
-├── package.json      # Dependencias del proyecto
-├── tsconfig.json     # Configuración de TypeScript
-
-
-
-
-
-
+<p align="center">
+  <sub>Learning & personal project · <a href="https://github.com/Luis321123">Luis Peña</a></sub><br/>
+  <sub>Questions, ideas or fixes? Open an <a href="https://github.com/Luis321123/apiRestTypescript/issues">issue</a>.</sub>
+</p>
